@@ -19,3 +19,10 @@ read-ini(){
 		fi
 	done < $confile
 }
+
+get-cfg(){
+	section=$1;
+	key=$2;
+	section=$section-_-
+	echo ${conf[$section$key]};
+}
