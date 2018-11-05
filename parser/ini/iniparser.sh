@@ -1,3 +1,4 @@
+#!/bin/bash
 
 declare -A conf;
 read-ini(){
